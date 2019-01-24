@@ -1,0 +1,11 @@
+createView: function() {
+  new MAF.element.Text( {
+    label: $_('Hello World!'),
+    styles:{
+      width: this.width,
+      height: this.height,
+      fontSize: 60,
+      anchorStyle: 'center'
+    }
+  } ).appendTo( this );
+},
